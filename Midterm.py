@@ -6,36 +6,36 @@ def area_of_circle(radius):
 
 # Q2: Hollow Right Triangle
 def hollow_right_triangle(n):
-    if n >= 4:
-        result = ""
-        row = 1
-        while row == 1:
-            result += "*" + "\n"
-        while row < n or row > 1:
-            result += "*" + " " * (row - 2) + "*" + "\n"
-        while row == n:
-            result += "*" * n + "\n"
-            row += 1
-        return result.strip()
-    else: 
+    # if n >= 4:
+    #     result = ""
+    #     row = 1
+    #     while row == 1:
+    #         result += "*" + "\n"
+    #     while row < n or row > 1:
+    #         result += "*" + " " * (row - 2) + "*" + "\n"
+    #     while row == n:
+    #         result += "*" * n + "\n"
+    #         row += 1
+    #     return result.strip()
+    # else: 
         return "The triangle height should be at least 4."
         
 # Q3: Inverted Pyramid
 def inverted_pyramid(n):
-    if n >= 3:
-        result = ""
-        row = 1
-        while row <= n:
-            spaces = row - 1
-            stars = ...
-            line = spaces + stars
-            result += line
-            if row != n:
-                result += "\n"
-            row += 1
-            return result
-    else:
-        "The pyramid height should be at least 3."
+    # if n >= 3:
+    #     result = ""
+    #     row = 1
+    #     while row <= n:
+    #         spaces = row - 1
+    #         stars = ...
+    #         line = spaces + stars
+    #         result += line
+    #         if row != n:
+    #             result += "\n"
+    #         row += 1
+    #         return result
+    # else:
+        return "The pyramid height should be at least 3."
 
 # ----------------------------------------------------------------
 print(area_of_circle(5))
